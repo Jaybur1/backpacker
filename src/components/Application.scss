@@ -11,28 +11,8 @@
   &--centered {
     align-self: center;
   }
-
-  &__separator {
-    width: 90%;
-    margin: $spacing 0;
-    border: solid 1px;
-    color: darken($white, 5%);
-  }
-
   &__menu {
     flex: 1;
   }
-
-  &__lhl {
-    margin-top: 2rem;
-  }
 }
 
-.schedule {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 2rem 0;
-  padding: 0 $spacing;
-  width: 100%;
-}
